@@ -6,9 +6,9 @@ export default {
     // console.warn everything else
     console.warn(warning.code, warning.message );
   },
-  name: 'demo',
   input: 'lib/es6_global/src/demo.js',
   output: {
+    name: 'demo',
     format: 'iife',
     file: 'dist/demo-bundle.js'
   },

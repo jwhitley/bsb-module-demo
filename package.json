@@ -6,6 +6,7 @@
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
     "bundle": "rollup -c rollup.dev.js",
+    "rebundle": "rollup -w -c rollup.dev.js",
     "prepublishOnly": "rollup -c rollup.dist.js"
   },
   "keywords": [
@@ -14,8 +15,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^2.2.2",
-    "rollup": "^0.57.1",
-    "uglify-js": "^3.3.15"
+    "bs-platform": "^7.2.1",
+    "rollup": "^2.0.2",
+    "uglify-js": "^3.3.15",
+    "refmt": "^1.13.7-1"
   }
 }
